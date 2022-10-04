@@ -1,7 +1,6 @@
 ---
 - name: Create an Ec2 instance using ansible
   hosts: localhost
-  connection: local
   tasks: 
     - name: Launch Ec2 instance
       ec2:
