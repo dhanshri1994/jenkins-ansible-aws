@@ -1,6 +1,6 @@
 ---
 - name: Create an Ec2 instance using ansible
-  hosts: 34.205.30.234
+  hosts: 54.198.153.254
   tasks: 
     - name: Launch Ec2 instance
       ec2:
