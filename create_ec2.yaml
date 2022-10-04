@@ -1,0 +1,13 @@
+---
+- name: Create an Ec2 instance using ansible
+  hosts: 34.205.30.234
+  tasks: 
+    - name: Launch Ec2 instance
+      ec2:
+        key_name: my-key
+        instance_type: t2.micro
+        image: ami-026b57f3c383c2eec
+        wait: yes
+        group: webserver
+        count: 1
+        assign_public_ip: yes 
