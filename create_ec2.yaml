@@ -13,5 +13,5 @@
         count: 1
         assign_public_ip: yes
         region: us-east-1
-        AWS_ACCESS_KEY: AKIAQZV5L4URL3TDIIH4
-        AWS_SECRET_KEY: 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 
+        aws_access_key: AKIAQZV5L4URL3TDIIH4
+        aws_secret_key: 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 
