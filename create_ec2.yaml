@@ -13,5 +13,5 @@
         vpc_subnet_id: subnet-0048c07c9e12ea564
         assign_public_ip: yes
         region: us-east-1
-        aws_access_key: AKIAQZV5L4URL3TDIIH4
-        aws_secret_key: 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 
+        aws_access_key: AKIAQZV5L4URBKHKDEG3
+        aws_secret_key: 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 
